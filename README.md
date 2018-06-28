@@ -1,8 +1,8 @@
 # CS-GO-Player-Recognition
-An ongoing research project to study the human behaviour by the application of CS:GO Pro Player Recognition by RNN (LSTM).
+Study the human behaviour by the application of CS:GO Pro Player Recognition by RNN (LSTM).
 
 ## Objective
-Use the RNN (LSTM) to find players' behaviour patterns from the CS:GO in-game playing data and can further recognize players. Please note that it is an ongoing project, everything I explained below might be changed over time, especially the structure of the model and the setting of the parameters.
+Use the RNN (LSTM) to find players' behaviour patterns from the CS:GO in-game playing data and can further recognize players.
 
 ## Requirements
 - Python 3.6
