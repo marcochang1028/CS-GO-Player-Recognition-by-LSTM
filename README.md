@@ -55,7 +55,7 @@ tlp.LSTM_1(X_train, Y_train, X_test, Y_test, epoch=10000, batch_size=64,
 
 ## Results
 The scripts above is my current setting and the size of my training set and test set is 32991 and 1731 respectively.
-In terms of the performance, after around 300 epochs, the accuracies of the complex model and simple model are around 0.8543/0.8382 (training/test) and 0.8016/0.8037 (training/test) respectively. Apparently, the convergence rate of the complex model is much faster than that of the simple model. Also, the dropout mechanism works well in the complex model and prevent it from overfitting.
+In terms of performance, after around 300 epochs, the accuracies of the complex model and simple model are around 0.8543/0.8382 (training/test) and 0.8016/0.8037 (training/test) respectively. Apparently, the convergence rate of the complex model is much faster than that of the simple model. Also, the dropout mechanism works well in the complex model and prevent it from overfitting.
 
 ## Potential Business Benefits
 1. Detect players who use Bot in matches
