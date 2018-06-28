@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSGODemoParser", "CSGODemoParser\CSGODemoParser.csproj", "{AEDFE9F4-97B3-459F-90AC-398C7C39857D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEDFE9F4-97B3-459F-90AC-398C7C39857D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEDFE9F4-97B3-459F-90AC-398C7C39857D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEDFE9F4-97B3-459F-90AC-398C7C39857D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEDFE9F4-97B3-459F-90AC-398C7C39857D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88CE36F8-54DE-44D8-AE30-FCBDA09B2D1C}
+	EndGlobalSection
+EndGlobal
