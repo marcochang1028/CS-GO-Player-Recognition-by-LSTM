@@ -22,15 +22,15 @@ A pdf file in the folder `Doc/` has a detailed description of the project. Pleas
 2. In the Demo file, 1 second has 128 records for only a player, therefore, only a demo file with 10 players will generate over 1 million records in the Movement file. If we keep this size and feed it into the LSTM, the time steps will be too much for a length of 5 seconds (around 640 time steps), thus, we decided to merge the records from 128 records per second to 4 records per second despite some information losses.
 
 ## Running Test
-1. A match record file is called a demo file in the CS:GO. It can be downloaded from [HLTV](https://www.hltv.org/). There are two demo files I downloaded and put in the folder `TestData/Raw/` for the testing.
+1. A match record file is called a demo file in the CS:GO. It can be downloaded from [HLTV](https://www.hltv.org/).
 2. Execute the program `CSGODemoParser.exe` in the folder `Data Preprocessing/CSGODemoParser_Release/`. Change the input and output path. Push the button `Parser Demos`. 
   - If you want to export records of all rounds in a demo file, please change the value in the field `ParserMaxRound` to a big number (like 100).
-  - A demo file generates four files Movement.csv, Fired.csv, Hurt.csv and Grenade.csv which are put into a folder with the same name as the original demo file. A generated files from two demo files are put in the folder `Test Data/FirstOutput/` for the testing. (as the data size is huge, I only generated 3 round data from each demo file)
+  - A demo file generates four files Movement.csv, Fired.csv, Hurt.csv and Grenade.csv which are put into a folder with the same name as the original demo file.
   - A C# library [DemoInfo](https://github.com/StatsHelix/demoinfo) is used to parse the demo files.
   - The source code of this program is in the folder `Data Preprocessing/CSGODemoParser/`
 3. Execute the function `genPlayerActionFiles` in the file `GenPlayerActionFiles.py` in the folder `Data Preprocessing/` to merge and downsize four files and then separate it into different player's action files.
   - The player's action files are put into a folder with the same name as the original demo file.
-  - The final processed files are put in the folder `Test Data/Processed/`. They were generated from 17 demo files.
+  - The final processed files are a zip file put in the folder `Test Data/`. They were generated from 17 demo files.
 4. Execute the function 'load_data' in the file `TF_LSTM_Player.py` in the folder `LSTM` with the script as follows:
 ```
 import TF_LSTM_Player as tlp
