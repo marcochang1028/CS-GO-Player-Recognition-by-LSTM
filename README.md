@@ -62,8 +62,10 @@ In terms of performance, after around only 150 epochs, the accuracies of the com
 2. Generalize it to the Player Skill Level Classification Model which can be used to detect match-fixing, seek potential talent players from low-level tournaments, etc. 
 
 ## References
-1. [demoinfo](https://github.com/StatsHelix/demoinfo)
-2. [CSGO-Demos-Manager](https://github.com/akiver/CSGO-Demos-Manager)
-3. [Introduction to Recurrent Networks in TensorFlow](https://danijar.com/introduction-to-recurrent-networks-in-tensorflow/)
-4. [HLTV Website](https://www.hltv.org/stats)
+- [demoinfo](https://github.com/StatsHelix/demoinfo)
+- [CSGO-Demos-Manager](https://github.com/akiver/CSGO-Demos-Manager)
+- [Introduction to Recurrent Networks in TensorFlow](https://danijar.com/introduction-to-recurrent-networks-in-tensorflow/)
+- [HLTV Website](https://www.hltv.org/stats)
 
+## Remarks
+Welcome to contact me via [marcochang1028@gmail.com](mailto:marcochang1028@gmail.com)
